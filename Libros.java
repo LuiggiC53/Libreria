@@ -12,7 +12,7 @@
 			this.cantidad = cantidad;
 		}
 		
-		
+	
 		public String getIsbn() {
 			return isbn;
 		}
@@ -47,6 +47,6 @@
 		}
 		@Override
 		public String toString() {
-			return "ISBN: "+ this.isbn + "\t  Título: " + this.titulo + "\tCantidad: " + this.cantidad + "\tPrecio: " + this.precio;
+			return "ISBN: "+ this.isbn + "  titulo: " + this.titulo + "Cantidad: " + this.cantidad + "Precio: " + this.precio;
 		}
 	}

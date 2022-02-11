@@ -50,7 +50,7 @@
 						System.out.println("Lo sentimos, no existe libro con ese ISBN");
 					} else {
 						System.out.println("=========Información del libro=========");
-						System.out.println(inventario.getLibrobyIsbn(isbn)+"\n");
+						System.out.println(inventario.getLibrobyIsbn(isbn)+" ");
 					}
 					break;
 				case 3: 
